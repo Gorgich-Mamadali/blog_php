@@ -1,0 +1,362 @@
+@font-face {
+    font-family: Vazir;
+    src: url("../fonts/Vazir.ttf");
+}
+
+* {
+    font-family: Vazir;
+    box-sizing: border-box;
+}
+
+a.nav-link {
+    margin: 0px 10px;
+    color: #333 !important;
+    transition: .4s;
+}
+
+.dropdown-menu.show {
+    border-bottom: 3px solid #119edf;
+    border-radius: 5px 5px 0 0;
+}
+
+a.nav-link:hover {
+    border-bottom: 1px solid #119edf;
+    color:#119edf !important;
+    transition: .4s;
+}
+
+.search {
+    margin-top: 70px;
+    margin-right: 25%;
+}
+
+.mobile-search{
+  width: 90%;
+  display:inline;
+  border-radius:0 5px 5px 0;
+  margin-right:-75px;
+}
+
+.form-control{
+  width: 60%;
+  display: inline;
+  border-radius: 0 5px 5px 0;
+}
+
+
+input.mobile {
+    width: 80%;
+    display: inline;
+    border-radius: 0 5px 5px 0;
+    margin-top:20px;
+}
+
+input.sub {
+    margin-right: -5px;
+    border-radius: 5px 0 0 5px;
+    padding: 5px;
+}
+
+.head-img img {
+    border-radius: 10px;
+    transition: 0.6s all;
+}
+
+.head-img {
+    margin-top: 20px;
+    box-shadow: 1px 1px 4px 1px #969696;
+    border-radius: 10px;
+    transition: 0.6s all;
+    cursor: pointer;
+    position: relative;
+}
+
+.head-img img:hover {
+    opacity: 50%;
+    transition: 0.6s all;
+}
+
+.head-img:hover{
+  -ms-transform: scale(0.9); /* IE 9 */
+  transform: scale(0.9); /* Standard syntax */
+  transition: 0.6s all;
+  cursor: pointer;
+  .overlay{
+    opacity: 1;
+  }
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.6); /* ناحیه مشکی روی عکس */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+.my_card{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.content-text{
+    margin-top: 10px;
+    padding: 15px 50px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    background-color: rgb(198, 202, 206);
+    border-right: 3px solid #119edf;
+    border-left: 3px solid #119edf;
+}
+
+a{
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.content-text a{
+    color: #dd3f3f;
+}
+
+  .footer{
+    margin-top:100px;
+    background-color: #6485a3;
+    padding:10px 30px;
+  }
+
+  .footer a{
+    color:#333;
+    padding: 10px;
+  }
+
+  .footer a:hover{
+    color:rgb(255, 255, 255);
+  }
+
+  .footer ul{
+    display:inline-block;
+  }
+
+  .footer ul li{
+    display:block;
+  }
+
+
+  ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+  }
+
+  .footer p{
+    margin: 20px 0;
+  }
+
+  footer{
+    text-align:center;
+    background-color:#aaaaaa;
+    padding:20px 10px;
+  }
+
+  .boxes{
+    box-shadow: 1px 1px 4px 1px #969696;
+    padding: 6px;
+    border-radius: 6px;
+    transition: .4s;
+    margin: 10px; 
+    
+  }
+  .boxes:hover{
+    margin-top: 1px;
+    transition: .4s;
+  }
+
+  .boxes p{
+    margin: 10px;
+    text-align: center;
+    color: #333;
+  }
+
+  .boxes p:hover{
+    color: #222;
+  }
+
+  .boxes span{
+    opacity:0.7;
+    margin: 6px;
+    color: #333;
+  }
+
+  .boxes span:hover{
+    color: #222;
+    opacity: 1;
+  }
+
+  .boxes svg{
+    color: #333;
+  }
+
+  .boxes svg:hover{
+    color: #000000;
+  }
+ 
+  .boxes img{
+    border-radius: 6px;
+    transition: .4s;
+  }
+
+  .boxes img:hover{
+    opacity: 80%;
+    transition: .4s;
+  }
+
+h4#title{
+  margin: 10px;
+  padding: 10px;
+  border-bottom: 3px solid #119edf;
+  display: inline-block;
+}
+
+.co-view span{
+  margin-left: 30px;
+}
+
+.blog{
+  box-shadow: 1px 1px 4px 1px #969696;
+  margin-top:70px;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.blog img{
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  box-shadow: 2px 1px 4px 1px #969696;
+  transition: .4s;
+  box-shadow: 1px 1px 4px 1px #969696;
+}
+
+.blog img:hover{
+  opacity: 80%;
+  transition: .4s;
+}
+
+.blog h1{
+  font-size: 28px;
+}
+
+.writer{
+  margin: 40px 0px 30px 0px;
+}
+
+.comment{
+  display: inline;
+  float: left;
+}
+
+.comment svg{
+  margin-right: 50px;
+}
+
+#p-tags{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #119edf;
+  display:inline-block;
+  font-size: 18px;
+}
+
+.tags{
+  box-shadow: 1px 1px 4px 1px #969696;
+  padding: 20px 10px;
+  border-radius: 6px;
+}
+
+.tags a{
+  margin: 10px;
+  background-color: #0076ad;
+  color: #ffffff;
+  padding: 6px;
+  border-radius: 3px;
+  transition: .4s;
+}
+
+.tags a:hover{
+  padding: 10px;
+  transition: .4s;
+  color: #333;
+  border: 1px solid #333;
+}
+
+.writer-info{
+  margin-top: 60px;
+  padding: 30px;
+  box-shadow: 2px 1px 4px 1px #969696;
+  border-radius: 6px;
+}
+
+.writer-info a{
+  display: block;
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.comment-site{
+  margin-top: 80px;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 2px 1px 4px 1px #969696;
+  border-radius: 10px;
+}
+
+.comment-site h5{
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.user-comment{
+  box-shadow: 2px 1px 4px 1px #969696;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 20px 10px;
+}
+
+.welcom-text{
+  margin: 30px 0px;
+  text-align: center;
+}
+
+.register{
+  text-align: center;
+  box-shadow: 2px 1px 4px 1px #969696;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 110px 50px;
+  
+}
+
+.register h4{
+  margin: 30px 10px 20px 10px;
+}
+
+.register input{
+  margin: 10px;
+  width: 90%;
+}
+
+.register form{
+  margin:10px 10px 100px 10px;
+}
+
